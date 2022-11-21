@@ -1,11 +1,6 @@
 // ** MUI Imports
 import Grid from '@mui/material/Grid'
 
-// ** Icons Imports
-import Poll from 'mdi-material-ui/Poll'
-import CurrencyUsd from 'mdi-material-ui/CurrencyUsd'
-import HelpCircleOutline from 'mdi-material-ui/HelpCircleOutline'
-
 
 import Switch from '@mui/material/Switch'
 import { useSettings } from 'src/@core/hooks/useSettings'
@@ -29,31 +24,12 @@ import Sub1Quiz from 'src/pages/quiz/sub1'
 
 const Dashboard = () => {
 
-const { settings, saveSettings } = useSettings()
 
-  const handleDirectionChange = value => {
-    saveSettings({ ...settings, direction: value })
-  }
   return (
     <ApexChartWrapper>
       <Grid container spacing={6}>
-        <Grid item xs={12} md={4}>
-    <Sub1Quiz/>
-    <Trophy />
-        </Grid>
         <Grid item xs={12}>
-          <Table />
-           <Sub1Quiz />
-    <FormControlLabel
-      label='RTL'
-      control={
-        <Switch
-          checked={settings.direction === 'rtl'}
-          onChange={e => handleDirectionChange(e.target.checked ? 'rtl' : 'ltr')}
-        />
-      }
-    />
-    
+          <Sub1Quiz />
         </Grid>
       </Grid>
     </ApexChartWrapper>

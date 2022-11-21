@@ -8,6 +8,8 @@ import VerticalLayout from 'src/@core/layouts/VerticalLayout'
 
 // ** Navigation Imports
 import VerticalNavItems from 'src/navigation/vertical'
+import HorizontalNavItems from 'src/navigation/horizontal'
+
 
 // ** Component Import
 import VerticalAppBarContent from './components/vertical/AppBarContent'
