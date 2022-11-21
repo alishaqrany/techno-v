@@ -25,6 +25,7 @@ import StatisticsCard from 'src/views/dashboard/StatisticsCard'
 import WeeklyOverview from 'src/views/dashboard/WeeklyOverview'
 import DepositWithdraw from 'src/views/dashboard/DepositWithdraw'
 import SalesByCountries from 'src/views/dashboard/SalesByCountries'
+import Sub1Quiz from 'src/pages/quiz/sub1'
 
 const Dashboard = () => {
 
@@ -37,11 +38,12 @@ const { settings, saveSettings } = useSettings()
     <ApexChartWrapper>
       <Grid container spacing={6}>
         <Grid item xs={12} md={4}>
-          <Trophy />
+    <Sub1Quiz/>
+    <Trophy />
         </Grid>
         <Grid item xs={12}>
           <Table />
-           
+           <Sub1Quiz />
     <FormControlLabel
       label='RTL'
       control={
