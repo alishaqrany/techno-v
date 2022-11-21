@@ -1,0 +1,77 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+
+
+node_modules
+/.next/
+.next/
+.next/*
+.next/build-manifest.json
+.next/react-loadable-manifest.json
+.next/trace
+.next/cache/webpack/client-development/0.pack
+.next/cache/webpack/client-development/1.pack
+.next/cache/webpack/client-development/2.pack
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/client-development/index.pack.old
+.next/cache/webpack/server-development/0.pack
+.next/cache/webpack/server-development/1.pack
+.next/cache/webpack/server-development/2.pack
+.next/cache/webpack/server-development/index.pack
+.next/cache/webpack/server-development/index.pack.old
+.next/server/middleware-manifest.json
+.next/server/pages-manifest.json
+.next/server/webpack-runtime.js
+.next/server/pages/_app.js
+.next/server/pages/_document.js
+.next/server/pages/_error.js
+.next/server/pages/index.js
+.next/static/chunks/amp.js
+.next/static/chunks/main.js
+.next/static/chunks/node_modules_next_dist_client_dev_noop_js.js
+.next/static/chunks/node_modules_next_dist_pages__error_js.js
+.next/static/chunks/node_modules_react-apexcharts_dist_react-apexcharts_min_js.js
+.next/static/chunks/polyfills.js
+.next/static/chunks/react-refresh.js
+.next/static/chunks/webpack.js
+.next/static/chunks/pages/_app.js
+.next/static/chunks/pages/_error.js
+.next/static/chunks/pages/index.js
+.next/static/development/_buildManifest.js
+.next/static/development/_middlewareManifest.js
+.next/static/development/_ssgManifest.js
+.next/static/webpack/b11addb2e71a00b9.webpack.hot-update.json
+.next/static/webpack/webpack.b11addb2e71a00b9.hot-update.js
