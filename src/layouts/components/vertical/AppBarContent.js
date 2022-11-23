@@ -7,7 +7,7 @@ import InputAdornment from '@mui/material/InputAdornment'
 
 // ** Icons Imports
 import Menu from 'mdi-material-ui/Menu'
-import Magnify from 'mdi-material-ui/Magnify'
+// import Magnify from 'mdi-material-ui/Magnify'
 
 // ** Components
 import ModeToggler from 'src/@core/layouts/components/shared-components/ModeToggler'
@@ -37,8 +37,8 @@ const AppBarContent = props => {
       </Box>
         <ModeToggler settings={settings} saveSettings={saveSettings} />
         
-          
     </Box>
+
   )
 }
 
