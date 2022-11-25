@@ -15,9 +15,9 @@ import MuiTab from '@mui/material/Tab'
 
 
 // ** Demo Tabs Imports
-import Content from 'src/views/subjects/maintenance/content'
-import Quiz from 'src/views/subjects/maintenance/quiz'
-import Soon from 'src/views/subjects/maintenance/soon'
+import Content from 'src/views/subjects/multimedia/content'
+import Quiz from 'src/views/subjects/multimedia/quiz'
+import Soon from 'src/views/subjects/multimedia/soon'
 
 // ** Third Party Styles Imports
 

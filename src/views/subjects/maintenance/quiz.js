@@ -21,13 +21,18 @@ import KeyOutline from 'mdi-material-ui/KeyOutline'
 import EyeOffOutline from 'mdi-material-ui/EyeOffOutline'
 import LockOpenOutline from 'mdi-material-ui/LockOpenOutline'
 
+
+import Sub1Quiz from './quizzes/quiz-1'
+// import Sub1Quiz from './quizzes/quiz-2'
+// import Sub1Quiz from './quizzes/quiz-final'
+
 const Quiz = () => {
   return (
       <CardContent sx={{ paddingBottom: 0 }}>
         <Grid container spacing={5}>
         </Grid>
 
-
+        <Sub1Quiz />
       <Divider sx={{ margin: 0 }} />
 
       </CardContent>

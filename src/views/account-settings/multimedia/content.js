@@ -18,7 +18,6 @@ const Content = () => {
         <Grid container spacing={7}>
           <Grid item xs={12} sx={{ marginTop: 4.8, marginBottom: 3 }}>
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
-              <ImgStyled src={imgSrc} alt='Profile Pic' />
               <Box>
                 <Typography variant='body2' sx={{ marginTop: 5 }}>
                   test.

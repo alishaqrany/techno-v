@@ -10,6 +10,13 @@ import WrenchSettingsOutline from 'mdi-material-ui/AccountPlusOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
+import EngineeringTwoToneIcon from '@mui/icons-material/EngineeringTwoTone';
+import HandymanTwoToneIcon from '@mui/icons-material/HandymanTwoTone';
+import ScreenSearchDesktopTwoToneIcon from '@mui/icons-material/ScreenSearchDesktopTwoTone';
+import ColorLensOutlinedIcon from '@mui/icons-material/ColorLensOutlined';
+import CastForEducationOutlinedIcon from '@mui/icons-material/CastForEducationOutlined';
+import StorageOutlinedIcon from '@mui/icons-material/StorageOutlined';
+
 const navigation = () => {
   return [
     {
@@ -17,31 +24,31 @@ const navigation = () => {
       icon: HomeOutline,
       path: '/'
     },
-    // {
-    //   title: 'Account Settings',
-    //   icon: AccountCogOutline,
-    //   path: '/account-settings'
-    // },
+    // // {
+    // //   title: 'Account Settings',
+    // //   icon: AccountCogOutline,
+    // //   path: '/account-settings'
+    // // },
     {
       sectionTitle: 'المواد'
     },
     {
-      title: 'اساسيات صيانة الحاسب',
-      // icon: AccountPlusOutline,
+      title: ' اساسيات صيانة الحاسب  ',
+       icon: HandymanTwoToneIcon,
       path: '/subjects/maintenance'
-    },
+    }, 
     {
       title: 'الوسائط المتعددة',
-      // icon: AlertCircleOutline,
+       icon: ColorLensOutlinedIcon,
       path: '/subjects/multimedia',
       // openInNewTab: true
     },
-    {
-      title: 'تحليل نظم المعلومات',
-      // icon: AlertCircleOutline,
-      path: '/subjects/is',
-      // openInNewTab: true
-    },
+    // {
+    //   title: 'تحليل نظم المعلومات',
+    //   // icon: AlertCircleOutline,
+    //   path: '/subjects/is',
+    //   // openInNewTab: true
+    // },
     
     // {
     //   sectionTitle: 'User Interface'
