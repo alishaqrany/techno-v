@@ -20,8 +20,7 @@ import StatisticsCard from 'src/views/dashboard/StatisticsCard'
 import WeeklyOverview from 'src/views/dashboard/WeeklyOverview'
 import DepositWithdraw from 'src/views/dashboard/DepositWithdraw'
 import SalesByCountries from 'src/views/dashboard/SalesByCountries'
-import Sub1Quiz from 'src/pages/quiz/sub1'
-
+import Quiz from 'src/views/subjects/maintenance/quiz'
 const Dashboard = () => {
 
 
@@ -29,7 +28,7 @@ const Dashboard = () => {
     <ApexChartWrapper>
       <Grid container spacing={6}>
         <Grid item xs={12}>
-          <Sub1Quiz />
+          <Quiz />
         </Grid>
       </Grid>
     </ApexChartWrapper>

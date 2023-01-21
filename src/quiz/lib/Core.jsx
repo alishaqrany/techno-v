@@ -2,11 +2,11 @@ import React, {
   useState, useEffect, useCallback, Fragment,
 } from 'react';
 import QuizResultFilter from './core-components/QuizResultFilter';
-import { checkAnswer, selectAnswer, rawMarkup } from './core-components/helpers';
+import { checkAnswer, selectAnswer, rawMarkup } from './core-components/helpers.jsx';
 import InstantFeedback from './core-components/InstantFeedback';
 import Explanation from './core-components/Explanation';
 
-function Core({
+const Core = function ({
   questions, appLocale, showDefaultResult, onComplete, customResultPage,
   showInstantFeedback, continueTillCorrect, revealAnswerOnSubmit, allowNavigation,
   onQuestionSubmit,
@@ -346,6 +346,6 @@ function Core({
           && customResultPage(questionSummary)}
     </div>
   );
-}
+};
 
 export default Core;

@@ -1,5 +1,5 @@
 const themeConfig = {
-  templateName: 'Materio',
+  templateName: 'techno-v',
   layout: 'horizontal',
   mode: 'dark',
   direction: 'rtl',

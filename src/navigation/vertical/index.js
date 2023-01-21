@@ -23,26 +23,27 @@ const navigation = () => {
       title: 'الرئيسية',
       icon: HomeOutline,
       path: '/'
-    },
+    }
     // // {
     // //   title: 'Account Settings',
     // //   icon: AccountCogOutline,
     // //   path: '/account-settings'
     // // },
-    {
-      sectionTitle: 'المواد'
-    },
-    {
-      title: ' اساسيات صيانة الحاسب  ',
-       icon: HandymanTwoToneIcon,
-      path: '/subjects/maintenance'
-    }, 
-    {
-      title: 'الوسائط المتعددة',
-       icon: ColorLensOutlinedIcon,
-      path: '/subjects/multimedia',
+  //  {
+//      sectionTitle: 'المواد'
+ //   },
+ //  {
+  //     {
+//     title: ' اساسيات صيانة الحاسب  ',     title: ' اساسيات صيانة الحاسب  ',
+//       icon: HandymanTwoToneIcon,
+ //     path: '/subjects/maintenance'
+ //   }, 
+ //   {
+ ////     title: 'الوسائط المتعددة',
+  //     icon: ColorLensOutlinedIcon,
+  //    path: '/subjects/multimedia',
       // openInNewTab: true
-    },
+ //   },
     // {
     //   title: 'تحليل نظم المعلومات',
     //   // icon: AlertCircleOutline,
@@ -50,14 +51,39 @@ const navigation = () => {
     //   // openInNewTab: true
     // },
     
-    // {
-    //   sectionTitle: 'User Interface'
-    // },
-    // {
-    //   title: 'Typography',
-    //   icon: FormatLetterCase,
-    //   path: '/typography'
-    // },
+    ,{
+      sectionTitle: 'تاريخ تربية '
+    },
+    {
+      title: 'الاول والثاني_1',
+      icon: GoogleCirclesExtended,
+      path: '/subjects/1'
+    },
+  //  {
+  //    title: '_2الثاني',
+   //   icon: GoogleCirclesExtended,
+  //    path: '/subjects/2'
+//    },
+   // {
+ //   title: 'الثالث _ الفرعونية',
+//      icon: GoogleCirclesExtended,
+ //     path: '/subjects/3'
+  //  },
+ //   {
+ //     title: 'الثالث_الفرعونية 2',
+//      icon: GoogleCirclesExtended,
+  //    path: '/subjects/4'
+   // },
+  ////  {
+   //   title: 'الخامس',
+  //    icon: GoogleCirclesExtended,
+   //   path: '/subjects/5'
+  //  },
+  //  {
+  //    title: 'السادس',
+   //   icon: GoogleCirclesExtended,
+   //   path: '/subjects/6'
+  //  },
     // {
     //   title: 'Icons',
     //   path: '/icons',

@@ -41,7 +41,7 @@ const TabName = styled('span')(({ theme }) => ({
 
 const Maintenance = () => {
   // ** State
-  const [value, setValue] = useState('content')
+  const [value, setValue] = useState('quiz')
 
   const handleChange = (event, newValue) => {
     setValue(newValue)
@@ -56,15 +56,6 @@ const Maintenance = () => {
           sx={{ borderBottom: theme => `1px solid ${theme.palette.divider}` }}
         >
           <Tab
-            value='content'
-            label={
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                المحتوى
-                <TabName></TabName>
-              </Box>
-            }
-          />
-          <Tab
             value='quiz'
             label={
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -73,29 +64,12 @@ const Maintenance = () => {
               </Box>
             }
           />
-          <Tab
-            value='soon'
-            disabled='true'
-            label={
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                قريبا
-                <TabName></TabName>
-              </Box>
-            }
-          />
         </TabList>
-
-        <TabPanel sx={{ p: 0 }} value='content'>
-          <Content />
-        </TabPanel>
 
         <TabPanel sx={{ p: 0 }} value='quiz'>
             <Quiz />
         </TabPanel>
 
-        <TabPanel sx={{ p: 0 }} value='soon'>
-          <Soon/>
-        </TabPanel>
       </TabContext>
     </Card>
   )

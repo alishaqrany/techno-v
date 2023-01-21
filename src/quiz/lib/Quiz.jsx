@@ -1,17 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Core from './Core';
 import defaultLocale from './Locale';
-// import './styles.css';
-
-
-// ** MUI Imports
-import Card from '@mui/material/Card'
-import Button from '@mui/material/Button'
-import Typography from '@mui/material/Typography'
-import CardContent from '@mui/material/CardContent'
-import { styled, useTheme } from '@mui/material/styles' 
-
-
+//import './styles.css';
 
 const Quiz = function ({
   quiz, shuffle, showDefaultResult, onComplete, customResultPage,
@@ -119,7 +109,6 @@ const Quiz = function ({
   };
 
   return (
-     
     <div className="react-quiz-container">
       {!start
           && (
@@ -153,7 +142,6 @@ const Quiz = function ({
         />
       )}
     </div>
-          
   );
 };
 

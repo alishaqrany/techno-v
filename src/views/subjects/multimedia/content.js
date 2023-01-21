@@ -9,6 +9,11 @@ import { styled } from '@mui/material/styles'
 import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent'
 import Button from '@mui/material/Button'
+import CardMedia from '@mui/material/CardMedia';
+import Card from '@mui/material/Card';
+import React from 'react'
+import ReactPlayer from 'react-player/lazy'
+
 
 
 const Content = () => {
@@ -19,10 +24,23 @@ const Content = () => {
           <Grid item xs={12} sx={{ marginTop: 4.8, marginBottom: 3 }}>
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
               <Box>
-                <Typography variant='body2' sx={{ marginTop: 5 }}>
-                  test.
+                <Typography variant='h3' sx={{ marginTop: 5 }}>
+                  Adobe Director - الدرس الاول
                 </Typography>
               </Box>
+              
+            </Box>
+            <Box>
+             <Card sx={{ maxWidth: 345 }}>
+        <ReactPlayer
+        url='https://.youtu.be/EKpoE6q0Bfs'
+        width='100%'
+        pip='true'
+        controls='true'
+        // {light='true'}
+        />      
+        </Card>
+
             </Box>
             </Grid>
       </Grid>

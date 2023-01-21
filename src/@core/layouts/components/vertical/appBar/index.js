@@ -24,7 +24,12 @@ const Toolbar = styled(MuiToolbar)(({ theme }) => ({
   padding: `${theme.spacing(0)} !important`,
   minHeight: `${theme.mixins.toolbar.minHeight}px !important`,
   transition:
-    'padding .25s ease-in-out, box-shadow .25s ease-in-out, backdrop-filter .25s ease-in-out, background-color .25s ease-in-out'
+    'padding 0.25s ease-in-out 0s, box-shadow 0.25s ease-in-out 0s, backdrop-filter 0.25s ease-in-out 0s',
+      obacity:'0,5',
+  backgroundColor: theme.palette,
+  backdropFilter: 'blur(10px)'
+
+    
 }))
 
 const LayoutAppBar = props => {
@@ -38,7 +43,7 @@ const LayoutAppBar = props => {
   const { contentWidth } = settings
 
   return (
-    <AppBar elevation={0} color='default' className='layout-navbar' position='static'>
+    <AppBar elevation={0} color='default' className='layout-navbar' position='sticky'>
       <Toolbar
         className='navbar-content-container'
         sx={{

@@ -19,8 +19,6 @@ const Sub1Quiz = () => {
   
     return (
         
-    <Card sx={{ position: 'relative' }}>
-      <CardContent>
     <Quiz
       quiz={quiz}
       shuffle
@@ -33,8 +31,6 @@ const Sub1Quiz = () => {
       // allowNavigation
     />
 
-              </CardContent>
-    </Card>
     )
   }
   
