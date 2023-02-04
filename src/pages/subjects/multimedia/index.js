@@ -73,16 +73,7 @@ const Maintenance = () => {
               </Box>
             }
           />
-          <Tab
-            value='soon'
-            disabled='true'
-            label={
-              <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                قريبا
-                <TabName></TabName>
-              </Box>
-            }
-          />
+          
         </TabList>
 
         <TabPanel sx={{ p: 0 }} value='content'>
@@ -93,9 +84,6 @@ const Maintenance = () => {
             <Quiz />
         </TabPanel>
 
-        <TabPanel sx={{ p: 0 }} value='soon'>
-          <Soon/>
-        </TabPanel>
       </TabContext>
     </Card>
   )

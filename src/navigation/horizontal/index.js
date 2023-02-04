@@ -1,25 +1,21 @@
-const navigation = () => {
-    return [
-      {
-        badgeColor: 'error',
-        badgeContent: 'New',
-        title: 'Form Validation',
-        path: '/forms/form-validation',
-        icon: 'mdi:checkbox-marked-circle-outline'
-      },
-      {
-        disabled: true,
-        icon: 'mdi:eye-off-outline',
-        title: 'Disabled Menu'
-      },
-      {
-        icon: 'mdi:material-ui',
-        title: 'MUI Docs',
-        externalLink: true,
-        openInNewTab: true,
-        path: 'https://mui.com/material-ui/getting-started/usage/'
-      }
-    ]
+const navigation = () => [
+  {
+    title: 'Home',
+    path: '/home',
+    icon: 'mdi:home-outline',
+  },
+  {
+    title: 'Second Page',
+    path: '/second-page',
+    icon: 'mdi:email-outline',
+  },
+  {
+    path: '/acl',
+    action: 'read',
+    subject: 'acl-page',
+    title: 'Access Control',
+    icon: 'mdi:shield-outline',
   }
-  
-  export default navigation
+]
+
+export default navigation

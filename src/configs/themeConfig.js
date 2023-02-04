@@ -1,6 +1,6 @@
 const themeConfig = {
   templateName: 'techno-v',
-  layout: 'horizontal',
+  layout: 'vertical',
   mode: 'dark',
   direction: 'rtl',
   skin: 'default',
@@ -22,7 +22,7 @@ const themeConfig = {
   appBarBlur: true,
   responsiveFontSizes: true,
   disableRipple: false,
-  disableCustomizer: false,
+  disableCustomizer: true,
   toastPosition: 'top-right'
 }
 export default themeConfig
