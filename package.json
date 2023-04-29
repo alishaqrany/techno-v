@@ -67,6 +67,7 @@
     "react-player": "^2.11.0",
     "react-popper": "^2.3.0",
     "react-quiz-component": "^0.5.0",
+     "snarkdown": "^2.0.0",
     "stylis-plugin-rtl": "^2.1.1"
   },
   "devDependencies": {
