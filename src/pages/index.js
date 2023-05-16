@@ -28,7 +28,7 @@ const Dashboard = () => {
     <ApexChartWrapper>
       <Grid container spacing={6}>
         <Grid item xs={12}>
-          <Quiz />
+          <embed src="http://ai.edu-ali.tk/2/2/" />
         </Grid>
       </Grid>
     </ApexChartWrapper>
