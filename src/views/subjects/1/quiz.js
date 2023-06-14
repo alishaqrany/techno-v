@@ -22,7 +22,8 @@ import EyeOffOutline from 'mdi-material-ui/EyeOffOutline'
 import LockOpenOutline from 'mdi-material-ui/LockOpenOutline'
 
 
-import Sub1Quiz from './quizzes/quiz-1'
+import Sub1Quiz from './quiz'
+//import Sub1Quiz from './quizzes/quiz-1'
 // import Sub1Quiz from './quizzes/quiz-2'
 // import Sub1Quiz from './quizzes/quiz-final'
 
