@@ -8,6 +8,7 @@ const segment = {
 {
   "quizTitle": "1",
   "quizSynopsis": "22",
+  "nrOfQuestions": "1",
   "questions": [
     {
       "question": "23",
